@@ -1,67 +1,62 @@
 .dropdown-container {
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: 190px;
-    background-color: #1a1a1a;
-    transform: translateX(100%);
-    transition: transform 0.3s ease-in-out;
-    align-items: flex-start;
-    z-index: 10;
-    
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 190px;
+  background-color: #1a1a1a;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+  align-items: flex-start;
+  z-index: 10;
 }
 
 .dropdown-open {
-    transform: translateX(0%);
+  transform: translateX(0%);
 }
 
 .hamburger {
-    width: 20px;
-    height: auto;
-    color: #ccc;
+  width: 20px;
+  height: auto;
+  color: #ccc;
 }
 
 .menu-button {
-    background-color: transparent;
-    color: #ccc;
-    font-size: 15px;
-    font-weight: bold;
-    border: none;
-    padding: 8px 16px;
-    cursor: pointer;
-    transition: 0.2s;
+  background-color: transparent;
+  color: #ccc;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: 0.2s;
 }
 
 .menu-button:hover {
-
-    background-color: #333;
-
+  background-color: #333;
 }
 
 .dropdown-list {
-    padding: 5px 0px 0px 5px;
-    text-align: left;
-    list-style: none;
-    margin: 0;
-    background-color: #1a1a1a;
-    fill: #1a1a1a;
+  padding: 5px 0px 0px 5px;
+  text-align: left;
+  list-style: none;
+  margin: 0;
+  background-color: #1a1a1a;
+  fill: #1a1a1a;
 }
 
 .list2 {
-    cursor: pointer;
-    font-size: 1rem;
-    margin-top: 0px;
-    color: rgb(238, 238, 238);
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 0px;
+  color: rgb(238, 238, 238);
 }
 
 .sectionTop {
-
-    margin-top: 15px;
-    color: rgb(204, 204, 204);
-
+  margin-top: 15px;
+  color: rgb(204, 204, 204);
 }
 .dropdown-list li {
-    padding: 5px 16px;
-    font-size: 10px;
+  padding: 5px 16px;
+  font-size: 10px;
 }
