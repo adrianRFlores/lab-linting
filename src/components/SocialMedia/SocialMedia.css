@@ -1,5 +1,4 @@
 .social-media {
-    position: relative;
     width: 30px;
     height: 30px;
     margin-right: 16px;
@@ -12,9 +11,8 @@
 .socialButton{
     display: flex;
     align-items: center;
-    position: relative;
     background-color: #242424;
-    color: #6f6f6f;
+    color: #ccc;
     font-size: 15px;
     font-weight: bold;
     border: none;
@@ -22,7 +20,8 @@
     cursor: pointer;
 }
 
-.horn {
+.megaphone {
+    color: #ccc;
     width: 20px;
     padding-right: 5px;
     height: auto;

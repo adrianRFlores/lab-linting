@@ -1,12 +1,14 @@
 .dropdown-container {
-    position: sticky;
+    position: fixed;
     top: 0;
     right: 0;
     height: 100vh;
     width: 190px;
-    background-color: #242424;
+    background-color: #1a1a1a;
     transform: translateX(100%);
     transition: transform 0.3s ease-in-out;
+    align-items: flex-start;
+    z-index: 10;
     
 }
 
@@ -17,38 +19,31 @@
 .hamburger {
     width: 20px;
     height: auto;
+    color: #ccc;
 }
 
 .menu-button {
-    position: relative;
-    background-color: #242424;
-    color: #6f6f6f;
+    background-color: transparent;
+    color: #ccc;
     font-size: 15px;
     font-weight: bold;
     border: none;
     padding: 8px 16px;
     cursor: pointer;
-    top: 20px;
-    right: 400px;
+    transition: 0.2s;
 }
 
-.dropdown-container {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    border: 1px solid #242424;
-    z-index: 1;
-    min-width: 14em;
-    left: auto;
+.menu-button:hover {
+
+    background-color: #333;
 
 }
 
 .dropdown-list {
+    padding: 5px 0px 0px 5px;
     text-align: left;
     list-style: none;
     margin: 0;
-    padding: 100% 0%;
     background-color: #1a1a1a;
     fill: #1a1a1a;
 }

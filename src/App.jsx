@@ -14,8 +14,8 @@ function App() {
 
     <div className="App">
       <header className='App-header'>
-        <SocialMedia />
         <DropDownMenu />
+        <SocialMedia />
       </header>
       <Buscador></Buscador>
       <div className='fondo'>
